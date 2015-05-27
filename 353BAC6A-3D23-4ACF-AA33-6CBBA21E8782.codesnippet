@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>MultParam</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//可变参数实现
+    //初始化对象
+    va_list arg_list;
+    //开始第一个参数
+    va_start(arg_list, &lt;#prev_param#&gt;);
+    //指向下一个参数 todo 获取参数
+    va_arg(arg_list, &lt;#type#&gt;)
+    //结束获取参数
+    va_end(arg_list);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>353BAC6A-3D23-4ACF-AA33-6CBBA21E8782</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MultParam</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
