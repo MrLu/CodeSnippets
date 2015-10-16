@@ -11,7 +11,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#class#&gt; &lt;#name#&gt;</string>
+	<string>@property (nonatomic, strong) &lt;#class#&gt; &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5DECE924-0AEF-48F0-A963-1E7960B9B42D</string>
 	<key>IDECodeSnippetLanguage</key>
